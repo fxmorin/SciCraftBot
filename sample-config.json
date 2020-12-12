@@ -31,5 +31,9 @@
     "minecraft-version": {
       "channels": ["<channel-id>"],
       "webhook": "<url>"
+    },
+    "minecraft-servers": {
+      "addresses": [""], // List of mc server addresses that will be handling the rcon commands
+      "password": "" // Password that will be used to authenticate the rcon commands
     }
 }
